@@ -23,7 +23,6 @@ app.get("/", (req, res) => {
 
 app.use("/api/inngest", serve({ client: inngest, functions }));
 app.use("/api/chat", chatRoutes);
-app.use("/api/auth", authRoutes);  
 
 Sentry.setupExpressErrorHandler(app);
 
