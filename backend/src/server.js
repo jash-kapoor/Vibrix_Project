@@ -7,7 +7,6 @@ import { serve } from "inngest/express";
 import { inngest, functions } from "./config/inngest.js";
 import chatRoutes from "./routes/chat.route.js";
 import * as Sentry from "@sentry/node";
-import authRoutes from "./routes/auth.routes.js";
 
 const app = express();
 
